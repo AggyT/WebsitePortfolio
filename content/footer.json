@@ -1,0 +1,52 @@
+{
+	"outboundLinks": [
+		{ 
+			"header": "Website Code",
+			"link": "https://github.com/WebsitePortfolio",
+			"note": "Github repository"
+		},
+		{ 
+			"header": "CC BY-NC-ND 4.0 License",
+			"link": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+			"note": "Project portfolio license"
+		},
+		{ 
+			"header": "MIT License",
+			"link": "https://opensource.org/license/mit",
+			"note": "Website code license"
+		}
+	],
+
+	"links": [
+		{ 
+			"person": "Home",
+			"link": "/",
+			"note": "Start here."
+		},
+		{ 
+			"person": "About Me",
+			"link": "#aboutme",
+			"note": "Who am I?"
+		},
+		{ 
+			"person": "Projects",
+			"link": "#projects",
+			"note": "Check out my projects!"
+		}
+	],
+
+	"social": [
+		{
+			"url": "https://www.linkedin.com/in/agathiyatharun",
+			"icon": "linkedin"
+		},
+		{
+			"url": "https://github.com/AggyT",
+			"icon": "github"
+		},
+		{
+			"url": "https://www.youtube.com/playlist?list=PLH54Dc3hac5rhs0GLU7HcuiwlPyB42sQ-",
+			"icon": "youtube"
+		}
+	]
+}

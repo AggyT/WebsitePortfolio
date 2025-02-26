@@ -1,0 +1,253 @@
+{
+    "asset": {
+        "version": "2.0",
+        "generator": "Open Asset Import Library (assimp v5.4.0)"
+    },
+    "extensionsUsed": [
+        "KHR_materials_volume",
+        "FB_ngon_encoding"
+    ],
+    "accessors": [
+        {
+            "bufferView": 0,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 14701,
+            "type": "VEC3",
+            "max": [
+                0.6032500267028809,
+                0.26363033056259155,
+                0.6820847392082214
+            ],
+            "min": [
+                -0.05714999884366989,
+                -0.36454370617866516,
+                -0.6960920095443726
+            ]
+        },
+        {
+            "bufferView": 1,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 14701,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                0.9999971985816956
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 2,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 47136,
+            "type": "SCALAR",
+            "max": [
+                14700
+            ],
+            "min": [
+                0
+            ]
+        },
+        {
+            "bufferView": 3,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2334,
+            "type": "VEC3",
+            "max": [
+                0.7538954019546509,
+                0.5993071794509888,
+                0.6413455009460449
+            ],
+            "min": [
+                -0.18239539861679077,
+                -0.3236358165740967,
+                -2.2133467197418213
+            ]
+        },
+        {
+            "bufferView": 4,
+            "byteOffset": 0,
+            "componentType": 5126,
+            "count": 2334,
+            "type": "VEC3",
+            "max": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "min": [
+                -1.0,
+                -1.0,
+                -1.0
+            ]
+        },
+        {
+            "bufferView": 5,
+            "byteOffset": 0,
+            "componentType": 5125,
+            "count": 5328,
+            "type": "SCALAR",
+            "max": [
+                2333
+            ],
+            "min": [
+                0
+            ]
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 618696,
+            "uri": "airbrake_0.bin"
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 176412,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 176412,
+            "byteLength": 176412,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 352824,
+            "byteLength": 188544,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 541368,
+            "byteLength": 28008,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 569376,
+            "byteLength": 28008,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 597384,
+            "byteLength": 21312,
+            "target": 34963
+        }
+    ],
+    "materials": [
+        {
+            "name": "Mat_1",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.35153260827064514,
+                    0.35153260827064514,
+                    0.35153260827064514,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092896
+            },
+            "doubleSided": true
+        },
+        {
+            "name": "Mat_2",
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    0.7835378050804138,
+                    0.5906188488006592,
+                    0.34191441535949707,
+                    1.0
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.30000001192092896
+            },
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "meshes[0]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 0,
+                    "indices": 2,
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1
+                    }
+                }
+            ]
+        },
+        {
+            "name": "meshes[1]",
+            "primitives": [
+                {
+                    "mode": 4,
+                    "material": 1,
+                    "indices": 5,
+                    "attributes": {
+                        "POSITION": 3,
+                        "NORMAL": 4
+                    }
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "name": "airbrake",
+            "children": [
+                1
+            ]
+        },
+        {
+            "name": "(Unsaved)",
+            "children": [
+                2,
+                4
+            ]
+        },
+        {
+            "name": "Hub v23",
+            "children": [
+                3
+            ]
+        },
+        {
+            "name": "Hub v23_node",
+            "mesh": 0
+        },
+        {
+            "name": "Attachable Air Brake v24",
+            "children": [
+                5
+            ]
+        },
+        {
+            "name": "Attachable Air Brake v24_node",
+            "mesh": 1
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0
+            ]
+        }
+    ],
+    "scene": 0
+}

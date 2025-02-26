@@ -1,0 +1,44 @@
+{
+	"intro": {
+		"start": "Innovative Leader",
+		"middle1": "Social Networker",
+		"middle2": "2X Startup Cofounder",
+		"end": "Graduate Researcher",
+		"speed": 60,
+		"deletionSpeed": 80,
+		"wrapper": "h2",
+		"startDelay": 1000,
+		"deleteDelay": 3000,
+		"restartDelay": 0
+	},
+
+	"header": {
+		"name": "Agathiya Tharun",
+		"usp": "Mechanical/Aerospace Engineer"
+	},
+
+	"paragraph": "Engineer, entrepreneur, and aspiring astronaut",
+
+	"buttons": {
+		"primary": {
+			"title": "Contact Me",
+			"url": "",
+			"leaveSite": "false"
+		},
+		"secondary": {
+			"title": "LinkedIn",
+			"url": "",
+			"leaveSite": "true"
+		},
+		"tertiary": {
+			"title": "GitHub",
+			"url": "",
+			"leaveSite": "true"
+		},
+		"quaternary": {
+			"title": "YouTube",
+			"url": "",
+			"leaveSite": "true"
+		}
+	}
+}

@@ -1,0 +1,62 @@
+[
+	{
+		"project": "unfeatured project 1",
+		"url": "https://github.com",
+		"repo": "Public",
+		"descriptionTitle": "descTitle",
+		"description": "desc yooooakjs hakjsdhlfjdsahf kjdsahfkjdsa fhkjsadf hksajdhfkjdsa hfakjdshflkjsad hfkjdsahflkjsadhf lkjdsahfkjdsahf",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "url": "/img/projectImages/headshot.jpg" },
+			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "url": "/img/projectImages/headshot.jpg" }
+		],
+		"videoEmbedUrl": "",
+		"gltfPath": "/gltf/DSO.glb",
+		"cameraSpecs": { "position": [10, 6, 20], "fov": 2 },
+		"zoom": {"zMin": 0.5, "zMax": 5},
+		"stack": [
+			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
+			{ "key": "tensorflow",	"name": "Tensorflow", 	"type": "devicon" }
+		]
+	},
+	{
+		"project": "unfeatured project 2",
+		"url": "https://github.com",
+		"repo": "Public",
+		"descriptionTitle": "descTitle",
+		"description": "me354 asdfjas  jlkdjfkdjf;lkdsajflkdjf;salkfd jsadlkfjsad lkfjasd lfjalkdsjflkdsajf;a d;lksa jf",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "url": "/img/projectImages/headshot.jpg" },
+			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "url": "/img/projectImages/headshot.jpg" }
+		],
+		"videoEmbedUrl": "",
+		"gltfPath": "/gltf/ME354.glb",
+		"cameraSpecs": { "position": [0, 5, 10], "fov": 1.2 },
+		"zoom": {"zMin": 1, "zMax": 20},
+		"stack": [
+			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
+			{ "key": "tensorflow",	"name": "Tensorflow", 	"type": "devicon" }
+		]
+	},
+	{
+		"project": "unfeatured video project 3",
+		"url": "https://github.com",
+		"repo": "Public",
+		"descriptionTitle": "descTitle",
+		"description": "desc asjfhas dfaskjd hfasaskjdhfa kshdfkjsadh fkjsadhfkjsad hfkjsahfdkjsa hfdkjsahflkjsahfd kjsahdf jsahf",
+		"imageOptions": [
+		],
+		"images": "",
+		"videoEmbedUrl": "https://www.youtube.com/embed/5oeSrpCS6sw",
+		"gltfPath": "",
+		"cameraSpecs": "",
+		"zoom": "",
+		"stack": [
+			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
+			{ "key": "tensorflow",	"name": "Tensorflow", 	"type": "devicon" }
+		]
+	}
+]
