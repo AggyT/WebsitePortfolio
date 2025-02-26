@@ -16,68 +16,6 @@ import { useEffect, useRef } from 'react';
 
 export default function Resume() {
 
-    const viewer = useRef(null);
-    const isInitialized = useRef(false); // Prevent multiple initializations
-
-
-    useEffect(() => {
-        if (!isInitialized.current && viewer.current) {
-
-            import('@pdftron/webviewer').then(() => {
-                WebViewer(
-                    {
-                        disabledElements: [
-                            "toolbarGroup-Shapes",
-                            "toolbarGroup-Edit",
-                            "toolbarGroup-Insert",
-                            "toolbarGroup-Annotate",
-                            "toolbarGroup-Forms",
-                            "notesPanel",
-                            "viewControlsButton",
-                            "selectToolButton",
-                            "toggleNotesButton",
-                            "searchButton",
-                            "freeTextToolGroupButton",
-                            "crossStampToolButton",
-                            "checkStampToolButton",
-                            "dotStampToolButton",
-                            "rubberStampToolGroupButton",
-                            "dateFreeTextToolButton",
-                            "eraserToolButton",
-                            "panToolButton",
-                            "signatureToolGroupButton",
-                            "viewControlsOverlay",
-                            "toolbarGroup-View",
-                            "SignatureFormFieldCreateTool",
-                            "toolbarGroup-FillAndSign",
-                            // "groupedLeftHeaderButtons",
-                            "annotationEditToolButton",
-                            "tools-header"
-                        ],
-                        isReadOnly: true,
-                        path: '/lib',
-                        // licenseKey: 'demo:1739258616932:6161484503000000006d9c4f31c8b8964ed280c4dc5368c4f92c4d88af', // sign up to get a key at https://dev.apryse.com
-                        // initialDoc: '/NewResume.pdf',
-                        initialDoc: '/NewResume.pdf'
-                    },
-                    viewer.current,
-                ).then((instance) => {
-                    const { docViewer } = instance;
-
-                    instance.UI.disableTools();
-
-                    // const iframeDoc = instance.UI.iframeWindow.document
-                    // const dropdownButtons = iframeDoc.querySelectorAll('[data-element="dropdown-item-toolbarGroup-Redact"]')[0]
-                    // dropdownButtons.disabled = true;
-
-                    // you can now call WebViewer APIs here...
-                    // docViewer.enableReadOnlyMode();
-                });
-            })
-        }
-    }, []);
-
-
     return (
         <Section classProp={css.hasBg}>
             <Container spacing={'verticalXXXXLrg'}>
@@ -89,10 +27,11 @@ export default function Resume() {
 
                 {/* <ResumeBlock /> */}
 
-                <div className="MyComponent">
-                    {/* <div className="header">React sample</div> */}
+                {/* <div className="MyComponent">
                     <div className="webviewer" ref={viewer} ></div>
-                </div>
+                </div> */}
+                {/* <iframe src="/Agathiya_Tharun_Resume.pdf" width="100%" height="800px"></iframe> */}
+                <iframe src="/Agathiya_Tharun_Resume.pdf" width="100%" height="800px"></iframe>
 
             </Container>
             <div className={css.bgContainer}>
