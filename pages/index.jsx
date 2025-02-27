@@ -15,7 +15,7 @@ export default function HomePage() {
 			<Hero />
 			<div id="aboutme"/>
 			<About />
-			<div id="projects"/>
+			<div id="featured"/>
 			<FeaturedProjects />
 			<Analytics />
 			{/* <div id="technical"/>

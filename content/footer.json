@@ -29,8 +29,8 @@
 			"note": "Who am I?"
 		},
 		{ 
-			"person": "Projects",
-			"link": "#projects",
+			"person": "Featured",
+			"link": "#featured",
 			"note": "Check out my projects!"
 		}
 	],

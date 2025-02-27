@@ -23,7 +23,7 @@ export default function FeaturedProjects() {
 					preTitle="Websites, Applications, and more."
 					subTitle="Inspired by curiosity, driven by passion."
 				/> 				{
-					content.map((data, index) => {
+					content.slice(0,3).map((data, index) => {
 						return (
 							<FeaturedProject content={data} index={index} key={index} />
 						)

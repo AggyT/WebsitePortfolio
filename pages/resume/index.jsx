@@ -31,8 +31,8 @@ export default function Resume() {
                     <div className="webviewer" ref={viewer} ></div>
                 </div> */}
                 {/* <iframe src="/Agathiya_Tharun_Resume.pdf" width="100%" height="800px"></iframe> */}
-                <iframe src="/Agathiya_Tharun_Resume.pdf" width="100%" height="800px"></iframe>
-
+                <iframe src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://raw.githubusercontent.com/AggyT/Portfolio/main/Agathiya_Tharun_Resume.pdf" width="100%" height="800px"></iframe>
+                {/*<iframe src="https://docs.google.com/gview?url=https://raw.githubusercontent.com/AggyT/Portfolio/main/Agathiya_Tharun_Resume.pdf&embedded=true" width="100%" height="800px"></iframe> */} 
             </Container>
             <div className={css.bgContainer}>
                 <span className={css.orbitalBg}>

@@ -9,7 +9,9 @@ import Icon from '../../utils/icon.util'
 import SectionTitle from '../../blocks/section.title.block'
 
 import css from '../../../styles/sections/projects/featured.module.scss'
-import content from '../../../content/projects/lameprojects.json'
+import content from '../../../content/projects/featured.json'
+//import content from '../../../content/projects/lameprojects.json'
+
 
 
 export default function NotFeaturedProjects() {
@@ -18,17 +20,16 @@ export default function NotFeaturedProjects() {
 		<Section classProp={css.hasBg}>
 			<Container spacing={'verticalXXXXLrg'}>
 				<SectionTitle
-					title="Other Projects"
+					title="All Projects"
 					preTitle="Videos, adventures, wood tables"
 					subTitle="Inspired by curiosity, driven by passion."
-				/> 				{
+/> 				{
 					content.map((data, index) => {
 						return (
 							<FeaturedProject content={data} index={index} key={index} />
 						)
 					})
 				}
-
 			</Container>
 			<div className={css.bgContainer}>
 				<span className={css.orbitalBg}>
