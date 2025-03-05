@@ -11,11 +11,11 @@
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "url": "" },
-			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "url": "" }
+			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "toppad": "20px", "url": "/img/projectImages/BEAM.png" },
+			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "toppad": "0px", "url": "/img/projectImages/AT_BEAM.jpg" }
 		],
 		"videoEmbedUrl": "",
-		"gltfPath": "/gltf/beam.glb",
+		"gltfPath": "", 
 		"cameraSpecs": { "position": [10, 15, 20], "fov": 1.2 },
 		"zoom": {"zMin": 1, "zMax": 20},
 		"stack": [
@@ -29,20 +29,20 @@
 	},
 	{
 		"project": "LMBN Surgical Neurotomy",
-		"url": "https://youtu.be/wJQ6MUHjthM?list=PLH54Dc3hac5rhs0GLU7HcuiwlPyB42sQ-",
+		"url": "https://youtu.be/kyWLpfAHKxE?list=PLH54Dc3hac5rhs0GLU7HcuiwlPyB42sQ-",
 		"url2": "https://github.com",
 		"projecturl": "https://github.com/AggyT/Portfolio/tree/main/Projects/Surgical%20Instruments%20to%20Relieve%20Back%20Pain%20-%20Senior%20Design",
-		"link": "Demo Video",
+		"link": "Product Pitch",
 		"extra": "",
 		"descriptionTitle": "Surgical Instruments",
 		"description": "manufactured with micro-precision to permanently relieve lower back pain through a novel minimally invasive procedure",
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "url": "/img/projectImages/lmbn_instruments.jpg" },
-			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "url": "/img/projectImages/lmbn_procedure.jpg" }
+			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "toppad": "20px", "url": "/img/projectImages/lmbn_instruments.jpg" },
+			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "toppad": "20px", "url": "/img/projectImages/lmbn_procedure.jpg" }
 		],
-		"videoEmbedUrl": "",
+		"videoEmbedUrl": "https://www.youtube.com/embed/wJQ6MUHjthM?list=PLH54Dc3hac5rhs0GLU7HcuiwlPyB42sQ-",
 		"gltfPath": "",
 		"cameraSpecs": { "position": [10, 6, 20], "fov": 2 },
 		"zoom": {"zMin": 0.5, "zMax": 5},
@@ -52,24 +52,24 @@
 		]
 	},
 	{
-		"project": "Robot",
-		"url": "https://github.com",
-		"url2": "https://github.com",
-		"projecturl": "https://github.com/AggyT/BEAM",
-		"link": "Video",
-		"extra": "Article ",
-		"descriptionTitle": "descTitle",
-		"description": "desc yooooakjs hakjsdhlfjdsahf kjdsahfkjdsa fhkjsadf hksajdhfkjdsa hfakjdshflkjsad hfkjdsahflkjsadhf lkjdsahfkjdsahf",
+		"project": "RETHi",
+		"url": "https://youtu.be/5oeSrpCS6sw",
+		"url2": "https://engineering.purdue.edu/Engr/AboutUs/News/Spotlights/2021/agathiya-tharun-first-time-researcher",
+		"projecturl": "https://github.com/AggyT/Portfolio/tree/main/Research/Undergraduate%20-%20RETHi%20Research",
+		"link": "Symposium Poster",
+		"extra": "Interview Article",
+		"descriptionTitle": "Modular End Effector",
+		"description": "design for autonomous space-robots to perform repairs on ET habitats, as supported by the NASA-funded Resilient Extraterrestrial Habitats Institute (RETHi)",
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "url": "/img/projectImages/headshot.jpg" },
-			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "url": "/img/projectImages/headshot.jpg" }
+			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "toppad": "20px", "url": "/img/projectImages/headshot.jpg" },
+			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "toppad": "20px", "url": "/img/projectImages/headshot.jpg" }
 		],
 		"videoEmbedUrl": "",
-		"gltfPath": "/gltf/DSO.glb",
-		"cameraSpecs": { "position": [10, 6, 20], "fov": 2 },
-		"zoom": {"zMin": 0.5, "zMax": 5},
+		"gltfPath": "/gltf/RETHi.gltf",
+		"cameraSpecs": { "position": [40, 30, 25], "fov": 1 },
+		"zoom": {"zMin": 12, "zMax": 25},
 		"stack": [
 			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
 			{ "key": "chrome",	"name": "Tensorflow", 	"type": "devicon" }
@@ -87,8 +87,8 @@
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "url": "/img/projectImages/headshot.jpg" },
-			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "url": "/img/projectImages/headshot.jpg" }
+			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "toppad": "20px", "url": "/img/projectImages/headshot.jpg" },
+			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "toppad": "20px", "url": "/img/projectImages/headshot.jpg" }
 		],
 		"videoEmbedUrl": "",
 		"gltfPath": "/gltf/ME354.glb",
@@ -111,8 +111,8 @@
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "url": "/img/projectImages/headshot.jpg" },
-			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "url": "/img/projectImages/headshot.jpg" }
+			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "toppad": "20px", "url": "/img/projectImages/headshot.jpg" },
+			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "toppad": "20px", "url": "/img/projectImages/headshot.jpg" }
 		],
 		"videoEmbedUrl": "",
 		"gltfPath": "/gltf/airbrake.gltf",
@@ -135,8 +135,8 @@
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "url": "/img/projectImages/headshot.jpg" },
-			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "url": "/img/projectImages/headshot.jpg" }
+			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "toppad": "20px", "url": "/img/projectImages/headshot.jpg" },
+			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "toppad": "20px", "url": "/img/projectImages/headshot.jpg" }
 		],
 		"videoEmbedUrl": "",
 		"gltfPath": "/gltf/qube.gltf",
@@ -160,9 +160,9 @@
 		],
 		"images": "",
 		"videoEmbedUrl": "",
-		"gltfPath": "/gltf/RETHi.gltf",
-		"cameraSpecs": { "position": [40, 30, 25], "fov": 1 },
-		"zoom": {"zMin": 12, "zMax": 25},
+		"gltfPath": "/gltf/DSO.glb",
+		"cameraSpecs": { "position": [10, 6, 20], "fov": 2 },
+		"zoom": {"zMin": 0.5, "zMax": 5},
 		"stack": [
 			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
 			{ "key": "tensorflow",	"name": "Tensorflow", 	"type": "devicon" }

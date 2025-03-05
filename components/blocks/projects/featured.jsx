@@ -66,10 +66,10 @@ export default function FeaturedProject({ content }, index) {
 		if (videoEmbedUrl === "" && gltfPath === "") {
 			return (
             <div className={`${css.imageAnimationContainer}`}>
-                {images.map(({ key, url, hover, h, w }, index) => {
+                {images.map(({ key, url, hover, h, w, toppad }, index) => {
                     hover = (hover === 'left') ? hoverLeft : hoverRight
                     return (
-                        <m.div key={`${index}-${key}`} variants={item}>
+                        <m.div key={`${index}-${key}`} variants={item} style={{ paddingTop: toppad }}>
                             <m.div variants={hover}>
                                 <Image src={url} alt="x" height={h} width={w} />
                             </m.div>
