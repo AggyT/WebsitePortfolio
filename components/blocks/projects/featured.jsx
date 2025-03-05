@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { useState } from 'react'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub, faChrome, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { useEffect } from 'react'
 import { m, useAnimation } from "framer-motion"
 import { useInView } from 'react-intersection-observer'
@@ -17,9 +18,13 @@ import { v4 as uuidv4 } from 'uuid'
 
 // import { MyModel } from './rendergltf'
 
+const projectBlockStyle = {
+    cursor: 'default'
+};
+
 export default function FeaturedProject({ content }, index) {
 
-	const { project, url, repo, descriptionTitle, description, stack, imageOptions, images, videoEmbedUrl, gltfPath, cameraSpecs, zoom } = content
+	const { project, url, url2, projecturl, link, extra, descriptionTitle, description, stack, imageOptions, images, videoEmbedUrl, gltfPath, cameraSpecs, zoom } = content
 
 	const controls = useAnimation();
 	const { ref, inView } = useInView({
@@ -90,6 +95,7 @@ export default function FeaturedProject({ content }, index) {
 		<m.section
 			key={index}
 			className={css.project}
+			style={projectBlockStyle}
 			//framer-motion
 			ref={ref}
 			variants={container}
@@ -100,9 +106,24 @@ export default function FeaturedProject({ content }, index) {
 
 			<div className={css.details}>
 				<div className={css.projectHeader}>
+					
 					<div className={css.header}>
-						<h3 className="highlight">{project}</h3><span className={css.privateOr}><i className="devicon-github-plain"></i>{repo}</span>
-					</div>
+                        <h3 className="highlight">{project}</h3>
+                        <a href={url} target="_blank" rel="noopener noreferrer">
+                            <m.span className={css.privateOr} whileHover={{ scale: 1.2 }}>
+								<FontAwesomeIcon icon={faYoutube} style={{ marginLeft: '0px' }}/>{/*<i className="devicon-github-original"></i>*/}
+                                {link}
+                            </m.span>
+                        </a>
+                        {extra !== "" && (
+                            <a href={url2} target="_blank" rel="noopener noreferrer">
+                                <m.span className={css.privateOr} style={{ marginLeft: '-20px' }} whileHover={{ scale: 1.2 }}>
+									<FontAwesomeIcon icon={faChrome} style={{ marginLeft: '0px' }}/>
+                                    {extra}
+                                </m.span>
+                            </a>
+                        )}
+                    </div>
 
 					<div className={css.description}>
 						<p><strong>{descriptionTitle}</strong> {description}</p>
@@ -110,12 +131,12 @@ export default function FeaturedProject({ content }, index) {
 					<div className={css.stackContainer}>
 						<Badges list={stack} block="stack" fullContainer={false} color={false} />
 					</div>
-					<a href={url} target="_blank" rel="noopener noreferrer">
-
+					<a href={projecturl} target="_blank" rel="noopener noreferrer">
 						<m.div variants={''} className={css.viewProject}>
 							<p>Project Files</p>
-							<Icon icon={['fad', 'arrow-right-to-bracket']} />
-						</m.div></a>
+							<Icon icon={['fad', 'arrow-right-to-bracket']} /> 
+						</m.div>
+					</a>
 				</div>
 			</div>
 

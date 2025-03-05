@@ -22,7 +22,7 @@ export default function NotFeaturedProjects() {
 				<SectionTitle
 					title="All Projects"
 					preTitle="Industry, Personal, and Research"
-					subTitle="A glimpse into who I am"
+					subTitle=""
 /> 				{
 					content.map((data, index) => {
 						return (

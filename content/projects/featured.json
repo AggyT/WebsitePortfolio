@@ -1,8 +1,39 @@
 [
 	{
+		"project": "BEAM",
+		"url": "https://youtu.be/mfGMknZhrbw?list=PLH54Dc3hac5rhs0GLU7HcuiwlPyB42sQ-",
+		"url2": "",
+		"projecturl": "https://github.com/AggyT/BEAM",
+		"link": "Demo Video",
+		"extra": "",
+		"descriptionTitle": "descTitle",
+		"description": "me354 asdfjas  jlkdjfkdjf;lkdsajflkdjf;salkfd jsadlkfjsad lkfjasd lfjalkdsjflkdsajf;a d;lksa jf",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "url": "/img/projectImages/headshot.jpg" },
+			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "url": "/img/projectImages/headshot.jpg" }
+		],
+		"videoEmbedUrl": "",
+		"gltfPath": "/gltf/beam.glb",
+		"cameraSpecs": { "position": [10, 15, 20], "fov": 1.2 },
+		"zoom": {"zMin": 1, "zMax": 20},
+		"stack": [
+			{ "key": "matlab",		"name": "MATLAB", 		"type": "devicon" },
+			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
+			{ "key": "cube",		"name": "SolidWorks", 	"type": "fad" },
+			{ "key": "plug",		"name": "Electronics", 	"type": "fad" },
+			{ "key": "robot",		"name": "Robotics", 	"type": "fad" },
+			{ "key": "file-chart-column",		"name": "FEA", 	"type": "fad" }
+		]
+	},
+	{
 		"project": "Robot",
 		"url": "https://github.com",
-		"repo": "Public",
+		"url2": "https://github.com",
+		"projecturl": "https://github.com/AggyT/BEAM",
+		"link": "Video",
+		"extra": "Article ",
 		"descriptionTitle": "descTitle",
 		"description": "desc yooooakjs hakjsdhlfjdsahf kjdsahfkjdsa fhkjsadf hksajdhfkjdsa hfakjdshflkjsad hfkjdsahflkjsadhf lkjdsahfkjdsahf",
 		"imageOptions": [
@@ -17,13 +48,16 @@
 		"zoom": {"zMin": 0.5, "zMax": 5},
 		"stack": [
 			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
-			{ "key": "tensorflow",	"name": "Tensorflow", 	"type": "devicon" }
+			{ "key": "chrome",	"name": "Tensorflow", 	"type": "devicon" }
 		]
 	},
 	{
 		"project": "Robot Video",
 		"url": "https://github.com",
-		"repo": "Public",
+		"url2": "https://github.com",
+		"projecturl": "https://github.com/AggyT/BEAM",
+		"link": "Public",
+		"extra": "extra",
 		"descriptionTitle": "descTitle",
 		"description": "me354 asdfjas  jlkdjfkdjf;lkdsajflkdjf;salkfd jsadlkfjsad lkfjasd lfjalkdsjflkdsajf;a d;lksa jf",
 		"imageOptions": [
@@ -42,30 +76,12 @@
 		]
 	},
 	{
-		"project": "BEAM",
-		"url": "https://github.com",
-		"repo": "Public",
-		"descriptionTitle": "descTitle",
-		"description": "me354 asdfjas  jlkdjfkdjf;lkdsajflkdjf;salkfd jsadlkfjsad lkfjasd lfjalkdsjflkdsajf;a d;lksa jf",
-		"imageOptions": [
-		],
-		"images": [
-			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "url": "/img/projectImages/headshot.jpg" },
-			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "url": "/img/projectImages/headshot.jpg" }
-		],
-		"videoEmbedUrl": "",
-		"gltfPath": "/gltf/beam.glb",
-		"cameraSpecs": { "position": [10, 15, 20], "fov": 1.2 },
-		"zoom": {"zMin": 1, "zMax": 20},
-		"stack": [
-			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
-			{ "key": "tensorflow",	"name": "Tensorflow", 	"type": "devicon" }
-		]
-	},
-	{
 		"project": "next",
 		"url": "https://github.com",
-		"repo": "Public",
+		"url2": "https://github.com",
+		"projecturl": "https://github.com/AggyT/BEAM",
+		"link": "Public",
+		"extra": "extra",
 		"descriptionTitle": "descTitle",
 		"description": "me30801 asdfjas  jlkdjfkdjf;lkdsajflkdjf;salkfd jsadlkfjsad lkfjasd lfjalkdsjflkdsajf;a d;lksa jf",
 		"imageOptions": [
@@ -86,7 +102,10 @@
 	{
 		"project": "553",
 		"url": "https://github.com",
-		"repo": "Public",
+		"url2": "https://github.com",
+		"projecturl": "https://github.com/AggyT/BEAM",
+		"link": "Public",
+		"extra": "extra",
 		"descriptionTitle": "descTitle",
 		"description": "me553 asdfjas  jlkdjfkdjf;lkdsajflkdjf;salkfd jsadlkfjsad lkfjasd lfjalkdsjflkdsajf;a d;lksa jf",
 		"imageOptions": [
@@ -107,7 +126,10 @@
 	{
 		"project": "RETHi",
 		"url": "https://github.com",
-		"repo": "Public",
+		"url2": "https://github.com",
+		"projecturl": "https://github.com/AggyT/BEAM",
+		"link": "Public",
+		"extra": "extra",
 		"descriptionTitle": "descTitle",
 		"description": "need to add presentation and article and interviewvideo",
 		"imageOptions": [
@@ -125,7 +147,10 @@
 	{
 		"project": "Robot Video",
 		"url": "https://github.com",
-		"repo": "Public",
+		"url2": "https://github.com",
+		"projecturl": "https://github.com/AggyT/BEAM",
+		"link": "Public",
+		"extra": "extra",
 		"descriptionTitle": "descTitle",
 		"description": "desc asjfhas dfaskjd hfasaskjdhfa kshdfkjsadh fkjsadhfkjsad hfkjsahfdkjsa hfdkjsahflkjsahfd kjsahdf jsahf",
 		"imageOptions": [
