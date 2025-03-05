@@ -61,23 +61,23 @@ export default function FeaturedProject({ content }, index) {
 
 
 	// content container
-
+	
 	function Content() {
 		if (videoEmbedUrl === "" && gltfPath === "") {
-			<span className={`${css.imageAnimationContainer}`}>
-				{images.map(({ key, url, hover, h, w }, index) => {
-					hover = (hover === 'left') ? hoverLeft : hoverRight
-
-					return (
-						<m.div key={`${index}-${key}`} variants={item}>
-							<m.div variants={hover}>
-								<Image src={url} alt="x" height={h} width={w} />
-							</m.div>
-						</m.div>
-					)
-				}
-				)}
-			</span>
+			return (
+            <div className={`${css.imageAnimationContainer}`}>
+                {images.map(({ key, url, hover, h, w }, index) => {
+                    hover = (hover === 'left') ? hoverLeft : hoverRight
+                    return (
+                        <m.div key={`${index}-${key}`} variants={item}>
+                            <m.div variants={hover}>
+                                <Image src={url} alt="x" height={h} width={w} />
+                            </m.div>
+                        </m.div>
+                    )
+                })}
+            </div>
+        )
 		} else if (videoEmbedUrl !== "" && gltfPath === "") {
 			return (
 				<div className={css.videoContainer}>

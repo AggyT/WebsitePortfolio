@@ -6,13 +6,13 @@
 		"projecturl": "https://github.com/AggyT/BEAM",
 		"link": "Demo Video",
 		"extra": "",
-		"descriptionTitle": "descTitle",
-		"description": "me354 asdfjas  jlkdjfkdjf;lkdsajflkdjf;salkfd jsadlkfjsad lkfjasd lfjalkdsjflkdsajf;a d;lksa jf",
+		"descriptionTitle": "4-DOF Manipulator",
+		"description": "that translates image and text boundaries to waypoints, painting light through long-exposure photography",
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "url": "/img/projectImages/headshot.jpg" },
-			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "url": "/img/projectImages/headshot.jpg" }
+			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "url": "" },
+			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "url": "" }
 		],
 		"videoEmbedUrl": "",
 		"gltfPath": "/gltf/beam.glb",
@@ -25,6 +25,30 @@
 			{ "key": "plug",		"name": "Electronics", 	"type": "fad" },
 			{ "key": "robot",		"name": "Robotics", 	"type": "fad" },
 			{ "key": "file-chart-column",		"name": "FEA", 	"type": "fad" }
+		]
+	},
+	{
+		"project": "LMBN Surgical Neurotomy",
+		"url": "https://youtu.be/wJQ6MUHjthM?list=PLH54Dc3hac5rhs0GLU7HcuiwlPyB42sQ-",
+		"url2": "https://github.com",
+		"projecturl": "https://github.com/AggyT/Portfolio/tree/main/Projects/Surgical%20Instruments%20to%20Relieve%20Back%20Pain%20-%20Senior%20Design",
+		"link": "Demo Video",
+		"extra": "",
+		"descriptionTitle": "Surgical Instruments",
+		"description": "manufactured with micro-precision to permanently relieve lower back pain through a novel minimally invasive procedure",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "url": "/img/projectImages/lmbn_instruments.jpg" },
+			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "url": "/img/projectImages/lmbn_procedure.jpg" }
+		],
+		"videoEmbedUrl": "",
+		"gltfPath": "",
+		"cameraSpecs": { "position": [10, 6, 20], "fov": 2 },
+		"zoom": {"zMin": 0.5, "zMax": 5},
+		"stack": [
+			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
+			{ "key": "chrome",	"name": "Tensorflow", 	"type": "devicon" }
 		]
 	},
 	{
