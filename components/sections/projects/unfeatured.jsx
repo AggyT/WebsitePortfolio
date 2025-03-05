@@ -21,8 +21,8 @@ export default function NotFeaturedProjects() {
 			<Container spacing={'verticalXXXXLrg'}>
 				<SectionTitle
 					title="All Projects"
-					preTitle="Videos, adventures, wood tables"
-					subTitle="Inspired by curiosity, driven by passion."
+					preTitle="Industry, Personal, and Research"
+					subTitle="A glimpse into who I am"
 /> 				{
 					content.map((data, index) => {
 						return (

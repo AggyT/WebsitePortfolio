@@ -20,7 +20,7 @@ export default function FeaturedProjects() {
 			<Container spacing={'verticalXXXXLrg'}>
 				<SectionTitle
 					title="Featured Projects"
-					preTitle="Websites, Applications, and more."
+					preTitle="Hardware, Software, and more"
 					subTitle="Inspired by curiosity, driven by passion."
 				/> 				{
 					content.slice(0,3).map((data, index) => {

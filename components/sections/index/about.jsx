@@ -65,7 +65,7 @@ export default function About() {
 								<Image style={{ borderRadius: '0px' }} src="/img/eduLogos/ucla2.png" width={60} height={20}/>
 								<div className="eduText">
 									<h3>University of California, Los Angeles</h3>
-									<p>MSME/MSAE | Class of 2025</p>
+									<p>MSME/MSAE | Class of 2026</p>
 								</div>
 							</div>
 						</div>
