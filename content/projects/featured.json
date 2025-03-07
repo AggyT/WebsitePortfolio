@@ -11,8 +11,8 @@
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "toppad": "20px", "url": "/img/projectImages/BEAM.png" },
-			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "toppad": "0px", "url": "/img/projectImages/AT_BEAM.jpg" }
+			{ "key": "key",	"hover": "right", 	"h": "400", "w": "400", "toppad": "20px", "url": "/img/projectImages/AT_BEAM.jpg" },
+			{ "key": "key",	"hover": "left",	"h": "400", "w": "400", "toppad": "0px", "url": "/img/projectImages/BEAM.png" }
 		],
 		"videoEmbedUrl": "",
 		"gltfPath": "", 
@@ -47,8 +47,13 @@
 		"cameraSpecs": { "position": [10, 6, 20], "fov": 2 },
 		"zoom": {"zMin": 0.5, "zMax": 5},
 		"stack": [
-			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
-			{ "key": "chrome",	"name": "Tensorflow", 	"type": "devicon" }
+			{ "key": "cube",		"name": "SolidWorks", 	"type": "fad" },
+			{ "key": "flask",		"name": "Research", 	"type": "fad" },
+			{ "key": "location-crosshairs",		"name": "GD&T", 	"type": "fad" },
+			{ "key": "briefcase-blank",		"name": "PD", 	"type": "fad" },
+			{ "key": "axe",		"name": "Precision Machining", 	"type": "fad" },
+			{ "key": "dna",		"name": "Neuroscience", 	"type": "fad" },
+			{ "key": "file-chart-column",		"name": "FEA", 	"type": "fad" }
 		]
 	},
 	{
@@ -71,19 +76,23 @@
 		"cameraSpecs": { "position": [40, 30, 25], "fov": 1 },
 		"zoom": {"zMin": 12, "zMax": 25},
 		"stack": [
-			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
-			{ "key": "chrome",	"name": "Tensorflow", 	"type": "devicon" }
+			{ "key": "cube",		"name": "SolidWorks", 	"type": "fad" },
+			{ "key": "square-f",		"name": "Fusion 360", 	"type": "fad" },
+			{ "key": "flask",		"name": "Research", 	"type": "fad" },
+			{ "key": "gears",		"name": "CAM / Manufacturing", 	"type": "fad" },
+			{ "key": "file-chart-column",		"name": "FEA", 	"type": "fad" },
+			{ "key": "plug",		"name": "Electronics", 	"type": "fad" }
 		]
 	},
 	{
-		"project": "Robot Video",
+		"project": "ME354",
 		"url": "https://github.com",
 		"url2": "https://github.com",
-		"projecturl": "https://github.com/AggyT/BEAM",
-		"link": "Public",
-		"extra": "extra",
-		"descriptionTitle": "descTitle",
-		"description": "me354 asdfjas  jlkdjfkdjf;lkdsajflkdjf;salkfd jsadlkfjsad lkfjasd lfjalkdsjflkdsajf;a d;lksa jf",
+		"projecturl": "https://github.com",
+		"link": "Github",
+		"extra": "Github",
+		"descriptionTitle": "",
+		"description": "Coming soon!",
 		"imageOptions": [
 		],
 		"images": [
@@ -95,19 +104,21 @@
 		"cameraSpecs": { "position": [0, 5, 10], "fov": 1.2 },
 		"zoom": {"zMin": 1, "zMax": 20},
 		"stack": [
-			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
-			{ "key": "tensorflow",	"name": "Tensorflow", 	"type": "devicon" }
+			{ "key": "cube",		"name": "SolidWorks", 	"type": "fad" },
+			{ "key": "file-chart-column",		"name": "FEA", 	"type": "fad" },
+			{ "key": "plug",		"name": "Electronics", 	"type": "fad" },
+			{ "key": "axe",		"name": "Manufacturing", 	"type": "fad" }
 		]
 	},
 	{
-		"project": "next",
+		"project": "ME30801",
 		"url": "https://github.com",
 		"url2": "https://github.com",
-		"projecturl": "https://github.com/AggyT/BEAM",
-		"link": "Public",
-		"extra": "extra",
-		"descriptionTitle": "descTitle",
-		"description": "me30801 asdfjas  jlkdjfkdjf;lkdsajflkdjf;salkfd jsadlkfjsad lkfjasd lfjalkdsjflkdsajf;a d;lksa jf",
+		"projecturl": "https://github.com",
+		"link": "Github",
+		"extra": "Github",
+		"descriptionTitle": "",
+		"description": "Coming soon!",
 		"imageOptions": [
 		],
 		"images": [
@@ -119,19 +130,21 @@
 		"cameraSpecs": { "position": [0, 0, -10], "fov": 1.2 },
 		"zoom": {"zMin": 100, "zMax": 120},
 		"stack": [
-			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
-			{ "key": "tensorflow",	"name": "Tensorflow", 	"type": "devicon" }
+			{ "key": "cube",		"name": "SolidWorks", 	"type": "fad" },
+			{ "key": "file-chart-column",		"name": "FEA", 	"type": "fad" },
+			{ "key": "plug",		"name": "Electronics", 	"type": "fad" },
+			{ "key": "axe",		"name": "Manufacturing", 	"type": "fad" }
 		]
 	},
 	{
-		"project": "553",
+		"project": "ME553",
 		"url": "https://github.com",
 		"url2": "https://github.com",
-		"projecturl": "https://github.com/AggyT/BEAM",
-		"link": "Public",
-		"extra": "extra",
-		"descriptionTitle": "descTitle",
-		"description": "me553 asdfjas  jlkdjfkdjf;lkdsajflkdjf;salkfd jsadlkfjsad lkfjasd lfjalkdsjflkdsajf;a d;lksa jf",
+		"projecturl": "https://github.com",
+		"link": "Github",
+		"extra": "Github",
+		"descriptionTitle": "",
+		"description": "Coming soon!",
 		"imageOptions": [
 		],
 		"images": [
@@ -143,19 +156,21 @@
 		"cameraSpecs": { "position": [0, 5, 10], "fov": 1.2 },
 		"zoom": {"zMin": 1, "zMax": 8},
 		"stack": [
-			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
-			{ "key": "tensorflow",	"name": "Tensorflow", 	"type": "devicon" }
+			{ "key": "cube",		"name": "SolidWorks", 	"type": "fad" },
+			{ "key": "file-chart-column",		"name": "FEA", 	"type": "fad" },
+			{ "key": "plug",		"name": "Electronics", 	"type": "fad" },
+			{ "key": "axe",		"name": "Manufacturing", 	"type": "fad" }
 		]
 	},
 	{
-		"project": "RETHi",
+		"project": "ME263",
 		"url": "https://github.com",
 		"url2": "https://github.com",
-		"projecturl": "https://github.com/AggyT/BEAM",
-		"link": "Public",
-		"extra": "extra",
-		"descriptionTitle": "descTitle",
-		"description": "need to add presentation and article and interviewvideo",
+		"projecturl": "https://github.com",
+		"link": "Github",
+		"extra": "Github",
+		"descriptionTitle": "",
+		"description": "Coming soon!",
 		"imageOptions": [
 		],
 		"images": "",
@@ -164,19 +179,21 @@
 		"cameraSpecs": { "position": [10, 6, 20], "fov": 2 },
 		"zoom": {"zMin": 0.5, "zMax": 5},
 		"stack": [
-			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
-			{ "key": "tensorflow",	"name": "Tensorflow", 	"type": "devicon" }
+			{ "key": "cube",		"name": "SolidWorks", 	"type": "fad" },
+			{ "key": "file-chart-column",		"name": "FEA", 	"type": "fad" },
+			{ "key": "plug",		"name": "Electronics", 	"type": "fad" },
+			{ "key": "axe",		"name": "Manufacturing", 	"type": "fad" }
 		]
 	},
 	{
-		"project": "Robot Video",
+		"project": "Research",
 		"url": "https://github.com",
 		"url2": "https://github.com",
-		"projecturl": "https://github.com/AggyT/BEAM",
-		"link": "Public",
-		"extra": "extra",
-		"descriptionTitle": "descTitle",
-		"description": "desc asjfhas dfaskjd hfasaskjdhfa kshdfkjsadh fkjsadhfkjsad hfkjsahfdkjsa hfdkjsahflkjsahfd kjsahdf jsahf",
+		"projecturl": "https://github.com",
+		"link": "Github",
+		"extra": "Github",
+		"descriptionTitle": "",
+		"description": "Coming soon!",
 		"imageOptions": [
 		],
 		"images": "",
@@ -185,8 +202,10 @@
 		"cameraSpecs": "",
 		"zoom": "",
 		"stack": [
-			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
-			{ "key": "tensorflow",	"name": "Tensorflow", 	"type": "devicon" }
+			{ "key": "cube",		"name": "SolidWorks", 	"type": "fad" },
+			{ "key": "file-chart-column",		"name": "FEA", 	"type": "fad" },
+			{ "key": "plug",		"name": "Electronics", 	"type": "fad" },
+			{ "key": "axe",		"name": "Manufacturing", 	"type": "fad" }
 		]
 	}
 ]
